@@ -1,0 +1,32 @@
+/* Center container and add spacing */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Style the color box */
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue; /* Default color */
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+/* Style the button */
+#change-color-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#change-color-btn:hover {
+  background-color: #0056b3;
+}
